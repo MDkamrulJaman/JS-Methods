@@ -20,4 +20,4 @@ function square(num) {
   const d = l => (l*l)-1;
   
   console.log(d(4));
-  
+ 
