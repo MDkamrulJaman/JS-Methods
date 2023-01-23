@@ -7,7 +7,6 @@ let index = 0;
 let name = names[index];
 a = setInterval(() => {
   let name = names[index++];
-  let names = ["abu rayhan", "sakar hossain", "akib ahmed", "alvi chowdhuri"];
   console.log(name, name.length); //we will get  abu rayhan 10 than it will give error.
   names = ""; // It will give a error because of taking empty string.
 
